@@ -20,15 +20,6 @@ const Layout: FC<Props> = ({ pageTitle, className, children }) => (
 
     <Header />
 
-    <div className={styles.backgroundImageContainer}>
-      <Image
-        src="/gradient-background.png"
-        alt=""
-        layout="fill"
-        objectFit="cover"
-      />
-    </div>
-
     <main>{children}</main>
 
     <footer>

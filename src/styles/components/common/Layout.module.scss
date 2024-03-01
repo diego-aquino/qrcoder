@@ -11,11 +11,3 @@
     flex: 1;
   }
 }
-
-.backgroundImageContainer {
-  > div,
-  > div img {
-    min-width: 200px;
-    z-index: -9999;
-  }
-}
